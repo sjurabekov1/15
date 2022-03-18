@@ -4,7 +4,7 @@ from PyQt5.QtGui import QFont
 import sys
 ls=list(range(1,16))
 import random as r
-#r.shuffle(ls)
+r.shuffle(ls)
 class Tugma(QPushButton):
     def __init__(self,name,ob,x,y):
         super().__init__(name,ob)
